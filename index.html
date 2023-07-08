@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">
+                    <img src="./amazon_logo.png" height="50" width="100" alt="Amazon logo"/>
+                </div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="Deliver-to">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="country">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-lang">
+                <img class="ind-flag"src="./ind-flag.png" height="20px" alt="ind-flag"/>
+                <!-- <div class="flag-icon">
+                    <i class="fa-solid fa-flag-usa"></i>
+                </div> -->
+                <select class="search-select-lang">
+                    <option>EN</option>
+                </select>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Hello, Sign In</span></p>
+                <div class="nav-second">Account & Lists</div>
+            </div>
+
+            <div class="nav-return border">
+                <p><span>Return</span></p>
+                <div class="nav-second">& Orders</div>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+    </header>
+
+    <!-- navigation -->
+    <nav class="second-nav">
+        <div class="second-container second-container-nav">
+            <ul>
+                <li class="border"  id="open-nav-sidebar">
+                    <span class="second-open-nav-slider">
+                        <i class="fa-solid fa-bars"></i>
+                        All
+                    </span>
+                </li>
+                <li class="border"><a href="#">Amazon Mini Tv</a></li>
+                <li class="border"><a href="#">Sell</a></li>
+                <li class="border"><a href="#">Best Sellers</a></li>
+                <li class="border"><a href="#">Today's Deals</a></li>
+                <li class="border"><a href="#">Mobiles</a></li>
+                <li class="border"><a href="#">Customer Service</a></li>
+                <li class="border"><a href="#">New Releases</a></li>
+                <li class="border prime-image-hover">
+                    <a href="#">Prime</a>
+                    <div class="prime-image">
+                        <img src="./primesquare.jpg" alt="amazon prime" />
+                    </div>
+                </li>
+            </ul>
+            <div class="second-nav-right-image-amazon-prime">
+                <img src="./amazonprime.jpg" alt="amazon prime"/>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- /////////////sidebar navigation///////////// -->
+    <div class="sidebar-container-navigation" id="sidebar-container-navigation-id">
+        <div class="slidebar-left-part">
+            <div class="sidebar-top">
+                <i class="fa-solid fa-circle-user"></i>
+                <h2>Hello,<span>Sign In</span></h2>
+            </div>
+            <div class="sidebar-wrap">
+                <div class="sidebar-item">
+                    <h2>Trending</h2>
+                    <p>Best Sellers</p>
+                    <p>New Releases</p>
+                    <p>Movers and Shakers</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Digital Content and Devices</h2>
+                    <p>Echo & Alexa</p>
+                    <p>Fire TV</p>
+                    <p>Kindle E-Reafers &eBooks</p>
+                    <p>Audible Audiobooks</p>
+                    <p>Amazon Prime Video</p>
+                    <p>Amazon Prime Music</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Shop By Category</h2>
+                    <p>Mobiles,Computers</p>
+                    <p>TV,Appliances, Electronics</p>
+                    <p>Men's Fashion</p>
+                    <p>Women's Fashion</p>
+                    <p>See All</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Programs & Features</h2>
+                    <p>Gift Cards & Mobile Recharges</p>
+                    <p>Flight Tickets</p>
+                    <p>#FoundIt - OnAmazon</p>
+                    <p>Clearence store</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Help & Settings</h2>
+                    <p>Your Account</p>
+                    <p>Customer Service</p>
+                    <p>Sign in</p>
+                    <p> .</p>
+                    <p> .</p>
+                </div>
+            </div>
+        </div>
+        <button id="sidebar-navigation-close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+
+
+
+
+    <!-- image slider -->
+    <section>
+        <div class="image-container">
+            <div class="image-list">
+                <div class="image-item">
+                    <img src="./imgs1.jpg"/>
+                </div>
+                <div class="image-item">
+                    <img src="./imgs2.jpg"/>
+                </div>
+                <div class="image-item">
+                    <img src="./imgs3.jpg"/>
+                </div>
+                <div class="image-item">
+                    <img src="./imgs4.jpg"/>
+                </div>
+                <div class="image-item">
+                    <img src="./imgs5.jpg"/>
+                </div>
+                <div class="image-item">
+                    <img src="./imgs6.jpg"/>
+                </div>
+
+            </div>
+            <div class="image-btn-container">
+                <button class="slider-btn" id="slide-btn-left"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="slider-btn" id="slide-btn-right"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+     <!--                 ///////////////////////////product-cards//////////// -->
+
+    <main class="main">
+        <div class="card-product-container">
+            <div class="card-product">
+                <h2>Up to 70% off | Clearance store</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img src="./card1.jpg" alt="image card 1"/>
+                    </div>
+                    <button class="card-button-btn">See more</button>
+                </div>
+            </div>
+            <div class="card-product">
+                <h2>Prime Day is July 15th and 16th</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img src="./card2.jpg" alt="image card 1"/>
+                    </div>
+                    <button class="card-button-btn">Explore all prime day offers</button>
+                </div>
+            </div>
+            <div class="card-product-4">
+                <h2>Up to 70% off | Styles for men</h2>
+                <div class="card-product-nested-card-4-1">
+                    <div class="card-nested-4">
+                        <img src="./card3.1.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Clothing</p>
+                </div>
+                <div class="card-product-nested-card-4-2">
+                    <div class="card-nested-4">
+                        <img src="./card3.2.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Footwear</p>
+                </div>
+                <div class="card-product-nested-card-4-3">
+                    <div class="card-nested-4">
+                        <img src="./card3.3.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Watches</p>
+                </div>
+                <div class="card-product-nested-card-4-4">
+                    <div class="card-nested-4">
+                        <img src="./card3.4.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Baggage & Luggage</p>
+                </div>
+                <button class="card-button-btn">Mega Fashion Days</button>
+            </div>
+        </div>
+
+
+        <div class="card-product-container">
+            <div class="card-product-4">
+                <h2>Upgrade your home | Amazon brands & more</h2>
+                <div class="card-product-nested-card-4-1">
+                    <div class="card-nested-4">
+                        <img src="./card4.1.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Starting ₹549 | Bestselling bedsheets</p>
+                </div>
+                <div class="card-product-nested-card-4-2">
+                    <div class="card-nested-4">
+                        <img src="./card4.2.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Starting ₹219 | Home storage & organisation</p>
+                </div>
+                <div class="card-product-nested-card-4-3">
+                    <div class="card-nested-4">
+                        <img src="./card4.3.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Starting ₹109 | Indoor lightings</p>
+                </div>
+                <div class="card-product-nested-card-4-4">
+                    <div class="card-nested-4">
+                        <img src="./card4.4.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Starting ₹299 | Curtains & more</p>
+                </div>
+                <button class="card-button-btn">Shop now</button>
+            </div>
+            <div class="card-product-4">
+                <h2>Prime exclusive offers | Travel tickets</h2>
+                <div class="card-product-nested-card-4-1">
+                    <div class="card-nested-4">
+                        <img src="./card5.1.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Get up to 25% off* on flight tickets</p>
+                </div>
+                <div class="card-product-nested-card-4-2">
+                    <div class="card-nested-4">
+                        <img src="./card5.2.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Zero gateway fees on trains</p>
+                </div>
+                <div class="card-product-nested-card-4-3">
+                    <div class="card-nested-4">
+                        <img src="./card5.3.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Flat 10% back on bus tickets</p>
+                </div>
+                <div class="card-product-nested-card-4-4">
+                    <div class="card-nested-4">
+                        <img src="./card5.4.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Products for your travel needs</p>
+                </div>
+                <button class="card-button-btn">See all offers</button>
+            </div>
+            <div class="card-product-4">
+                <h2>Revamp your home in style</h2>
+                <div class="card-product-nested-card-4-1">
+                    <div class="card-nested-4">
+                        <img src="./card6.1.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Bedsheets, curtains & more</p>
+                </div>
+                <div class="card-product-nested-card-4-2">
+                    <div class="card-nested-4">
+                        <img src="./card6.2.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Home decoration</p>
+                </div>
+                <div class="card-product-nested-card-4-3">
+                    <div class="card-nested-4">
+                        <img src="./card6.3.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Home storage</p>
+                </div>
+                <div class="card-product-nested-card-4-4">
+                    <div class="card-nested-4">
+                        <img src="./card6.4.jpg" alt="image card 1"/>
+                    </div>
+                    <p class="card3text">Lighting solutions</p>
+                </div>
+                <button class="card-button-btn">Explore all</button>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <h5>Get to Know Us</h5>
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Press Releases</p>
+                <p>Amazon Science</p>
+            </ul>
+            <ul>
+                <h5>Connect with Us</h5>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+            </ul>
+            <ul>
+                <h5>Make Money with Us</h5>
+                <p>Sell on Amazon</p>
+                <p>Sell under Amazon Accelerator</p>
+                <p>Protect and Build Your Brand</p>
+                <p>Amazon Global Selling</p>
+                <p>Become an Affiliate</p>
+                <p>Fulfilment by Amazon</p>
+                <p>Advertise Your Products</p>
+                <p>Amazon Pay on Merchants</p>
+            </ul>
+            <ul>
+                <h5>Let Us Help You</h5>
+                <p>COVID-19 and Amazon</p>
+                <p>Your Account</p>
+                <p>Returns Centre</p>
+                <p>100% Purchase Protection</p>
+                <p>Amazon App Download</p>
+                <p>Help</p>
+            </ul>
+
+        </div>
+
+        <div class="foot-panel3">
+            <div class="nav-logo border">
+                <div class="logo">
+                    <img src="./amazon_logo.png" height="50" width="100" alt="Amazon logo"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use & Sale</a>
+                <a>Privacy Notice</a>
+                <a>Interest-Based Ads</a>
+            </div>
+            <div class="copyright">
+                © 1996-2023, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

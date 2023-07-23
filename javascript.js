@@ -6,7 +6,7 @@ let imgItem = document.querySelectorAll(".image-item")
 console.log(imgItem.length - 1)
 
 let startSlider = 0
-let endSlider = (imgItem.length - 1) * 100  // 700
+let endSlider = (imgItem.length - 1) * 100  
 
 slideBtnLeft.addEventListener("click", handleLeftBtn)
 
